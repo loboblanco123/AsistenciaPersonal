@@ -282,7 +282,7 @@ String hora, minutos, segundos, ampm;
         aboutMenuItem.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         aboutMenuItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/slideshare.png"))); // NOI18N
         aboutMenuItem.setMnemonic('a');
-        aboutMenuItem.setText("Ingreso Alumnos");
+        aboutMenuItem.setText("Ingreso Personal");
         aboutMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 aboutMenuItemActionPerformed(evt);
@@ -293,7 +293,7 @@ String hora, minutos, segundos, ampm;
         jMenuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_B, java.awt.event.InputEvent.ALT_MASK));
         jMenuItem13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jMenuItem13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/user_32x32.png"))); // NOI18N
-        jMenuItem13.setText("Salida Alumnos");
+        jMenuItem13.setText("Salida Personal");
         jMenuItem13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem13ActionPerformed(evt);
